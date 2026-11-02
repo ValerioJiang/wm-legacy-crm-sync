@@ -1,0 +1,26 @@
+# secrets / local config
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python (mock-crm)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# webMethods / Designer local artefacts
+.metadata/
+*.log
